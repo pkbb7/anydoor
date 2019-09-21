@@ -1,0 +1,25 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "tiny NodeJS Static Web server",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "handlebars": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "supervisor src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkbb7/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkbb7/anydoor/issues"
+  },
+  "homepage": "https://github.com/pkbb7/anydoor#readme"
+}
